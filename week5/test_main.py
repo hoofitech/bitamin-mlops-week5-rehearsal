@@ -14,7 +14,7 @@ SAMPLE = json.loads(Path(__file__).with_name("sample_request.json").read_text())
 def test_root():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {"message": "ok"}
+    assert response.json() == {"message": "broken"}
 
 
 def test_predict():
