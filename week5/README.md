@@ -211,3 +211,5 @@ Secrets·Variable은 코드 복구로 생성되지 않습니다. 복구 후 직�
 | 빌드가 오래 걸림 | 첫 빌드 패키지 다운로드·두 CPU 이미지 생성 시간 대기. 로그가 진행 중인지 확인 |
 
 추가 확인: [GitHub 워크플로 위치](https://docs.github.com/en/actions/concepts/workflows-and-actions/workflows), [Docker 멀티 플랫폼 이미지](https://docs.docker.com/build/ci/github-actions/multi-platform/).
+
+- 리허설: 두 번째 배포
